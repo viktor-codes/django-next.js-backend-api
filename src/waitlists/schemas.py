@@ -8,5 +8,10 @@ class WaitlistEntryCreateSchema(Schema):
 
 
 class WaitlistEntryDetailSchema(Schema):
+    id: int
+    email: EmailStr
+
+
+class WaitlistEntryListSchema(Schema):
     email: EmailStr
     timestamp: datetime
