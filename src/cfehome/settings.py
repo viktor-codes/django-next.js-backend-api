@@ -25,6 +25,9 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+
+    "waitlists",
+    
     "ninja_extra",
     "ninja_jwt",
 ]

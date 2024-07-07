@@ -1,11 +1,12 @@
 from datetime import datetime
 from ninja import Schema
+from pydantic import EmailStr
 
 
 class WaitlistEntryCreateSchema(Schema):
-    email: str
+    email: EmailStr
 
 
 class WaitlistEntryDetailSchema(Schema):
-    email: str
+    email: EmailStr
     timestamp: datetime

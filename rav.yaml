@@ -5,6 +5,8 @@ scripts:
     - cd src && python manage.py makemigrations
   migrate:
     - cd src && python manage.py migrate
+  shell:
+    - cd src && python manage.py shell
   curl_auth: |
     curl -X POST \
       -H "Content-Type: application/json" \
