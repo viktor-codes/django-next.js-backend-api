@@ -1,5 +1,5 @@
 from django.contrib import admin
 
-from .models import WailistEntry
+from .models import WaitlistEntry
 
-admin.site.register(WailistEntry)
+admin.site.register(WaitlistEntry)
